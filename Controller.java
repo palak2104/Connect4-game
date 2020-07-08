@@ -300,11 +300,4 @@ private boolean isAllowedToInsert = true;
 	}
 
 
-	/*this is to say my code is exactly same as instructor.
- Than also i don't know why i am not getting the output.
- i have mailed my query but did not get reply.
-i have done the assignment task properly.
-also my file and help is stop  working after i created on jar file of this project.
-i am also unable to import event.Actionevent , event.eventHandelar and scene.parant after making one jar file.
-i request your forum to please understand queries properly.
-Thankyou */
+
