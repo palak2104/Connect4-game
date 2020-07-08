@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:id="rootGridPane" style="-fx-background-color: #D9F7F0;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.internshala.connect4.Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints maxWidth="334.0" minWidth="276.0" prefWidth="285.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+      <Pane fx:id="insertedDiscsPane" prefHeight="200.0" prefWidth="400.0" />
+        <Pane GridPane.columnSpan="2" />
+      <VBox style="-fx-background-color: #2B3B4C;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+         <children>
+            <TextField fx:id="playerOneTextField" promptText="Player One Name">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="playerTwoTextField" promptText="Player Two Name" />
+            <Button fx:id="setNamesButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="261.0" text="Set Names" />
+            <Label fx:id="playerNameLabel" alignment="CENTER" prefHeight="43.0" prefWidth="283.0" text="Player One" textFill="#fcf8f8">
+               <font>
+                  <Font name="System Bold" size="29.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" prefHeight="38.0" prefWidth="339.0" text="Turn" textFill="#f8f7f7">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Region prefHeight="200.0" prefWidth="200.0" />
+         </children></VBox>
+    </children>
+</GridPane>
